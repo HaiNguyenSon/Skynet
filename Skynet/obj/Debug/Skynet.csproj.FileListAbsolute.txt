@@ -16,3 +16,10 @@ C:\Git\Skynet\Skynet\obj\Debug\Skynet.csproj.CoreCompileInputs.cache
 C:\Git\Skynet\Skynet\obj\Debug\Skynet.exe
 C:\Git\Skynet\Skynet\obj\Debug\Skynet.pdb
 C:\Git\Skynet\Skynet\obj\Debug\Skynet.csprojAssemblyReference.cache
+C:\Git\skynet_GitHub\Skynet\bin\Debug\Skynet.exe.config
+C:\Git\skynet_GitHub\Skynet\bin\Debug\Skynet.exe
+C:\Git\skynet_GitHub\Skynet\bin\Debug\Skynet.pdb
+C:\Git\skynet_GitHub\Skynet\obj\Debug\Skynet.csprojAssemblyReference.cache
+C:\Git\skynet_GitHub\Skynet\obj\Debug\Skynet.csproj.CoreCompileInputs.cache
+C:\Git\skynet_GitHub\Skynet\obj\Debug\Skynet.exe
+C:\Git\skynet_GitHub\Skynet\obj\Debug\Skynet.pdb
