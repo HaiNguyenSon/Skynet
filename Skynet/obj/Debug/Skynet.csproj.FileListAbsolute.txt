@@ -1,0 +1,18 @@
+C:\Users\d58160\Desktop\VS_Projects\00_VS 2015\Skynet\Skynet\bin\Debug\Skynet.exe.config
+C:\Users\d58160\Desktop\VS_Projects\00_VS 2015\Skynet\Skynet\bin\Debug\Skynet.exe
+C:\Users\d58160\Desktop\VS_Projects\00_VS 2015\Skynet\Skynet\bin\Debug\Skynet.pdb
+C:\Users\d58160\Desktop\VS_Projects\00_VS 2015\Skynet\Skynet\obj\Debug\Skynet.exe
+C:\Users\d58160\Desktop\VS_Projects\00_VS 2015\Skynet\Skynet\obj\Debug\Skynet.pdb
+C:\Users\d58160\Desktop\Skynet\Skynet\bin\Debug\Skynet.exe.config
+C:\Users\d58160\Desktop\Skynet\Skynet\bin\Debug\Skynet.exe
+C:\Users\d58160\Desktop\Skynet\Skynet\bin\Debug\Skynet.pdb
+C:\Users\d58160\Desktop\Skynet\Skynet\obj\Debug\Skynet.csprojResolveAssemblyReference.cache
+C:\Users\d58160\Desktop\Skynet\Skynet\obj\Debug\Skynet.exe
+C:\Users\d58160\Desktop\Skynet\Skynet\obj\Debug\Skynet.pdb
+C:\Git\Skynet\Skynet\bin\Debug\Skynet.exe.config
+C:\Git\Skynet\Skynet\bin\Debug\Skynet.exe
+C:\Git\Skynet\Skynet\bin\Debug\Skynet.pdb
+C:\Git\Skynet\Skynet\obj\Debug\Skynet.csproj.CoreCompileInputs.cache
+C:\Git\Skynet\Skynet\obj\Debug\Skynet.exe
+C:\Git\Skynet\Skynet\obj\Debug\Skynet.pdb
+C:\Git\Skynet\Skynet\obj\Debug\Skynet.csprojAssemblyReference.cache
