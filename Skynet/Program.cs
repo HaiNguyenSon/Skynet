@@ -18,6 +18,7 @@ namespace Skynet
             Label textLabel = new Label() { Left = 50, Width = 350, Top = 20, Text = "Start the world domination?" };
             CheckBox vsCodeChkBox = new CheckBox() { Text = "include VS Code", Left = 50, Width = 350, Top = 40, };
             CheckBox spotifyChkBox = new CheckBox() { Text = "include Spotify", Left = 50, Width = 350, Top = 65, };
+            spotifyChkBox.Checked = true;
 
             Button confirmProcess = new Button()
                 { Text = "Yes", Left = 100, Width = 75, Top = 100, DialogResult = DialogResult.OK };
