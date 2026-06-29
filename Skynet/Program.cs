@@ -12,16 +12,14 @@ namespace Skynet
             public bool WaterfoxChkBox { get; set; }
         }
 
-        private static void Main(string[] args)
+        private static void Main()
         {
-            using (var myDialog = new Form()
+            using (var myDialog = new Form())
             {
-                Width = 400,
-                Height = 200,
-                FormBorderStyle = FormBorderStyle.FixedDialog,
-                StartPosition = FormStartPosition.CenterScreen
-            })
-            {
+                myDialog.Width = 400;
+                myDialog.Height = 200;
+                myDialog.FormBorderStyle = FormBorderStyle.FixedDialog;
+                myDialog.StartPosition = FormStartPosition.CenterScreen;
                 var textLabel = new Label() { Left = 50, Width = 350, Top = 20, Text = "Start the world domination?" };
                 var vsCodeChkBox = new CheckBox() { Text = "run VS Code", Left = 50, Width = 350, Top = 40, };
                 var chkBox = new CheckBox() { Text = "run Waterfox", Left = 50, Width = 350, Top = 65, };
@@ -55,21 +53,21 @@ namespace Skynet
 
         private static void WorldDomination(Input input)
         {
-            TryStart("C:\\Users\\hai.nguyen\\Downloads\\jira-mcp-windows-x64 (1)\\jira-mcp.exe");
+            TryStart(@"C:\Users\hai.nguyen\Downloads\jira-mcp-windows-x64 (1)\jira-mcp.exe");
 
-            TryStart("C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe");
-            TryStart("C:\\Program Files\\JetBrains\\JetBrains Rider 2022.3.2\\bin\\rider64.exe");
+            TryStart(@"C:\Program Files\Docker\Docker\Docker Desktop.exe");
+            TryStart(@"C:\Program Files\JetBrains\JetBrains Rider 2022.3.2\bin\rider64.exe");
 
             if (input.VsCodeChkBox)
-                TryStart("C:\\Program Files\\Microsoft VS Code\\Code.exe");
+                TryStart(@"C:\Program Files\Microsoft VS Code\Code.exe");
 
-            TryStart("C:\\Program Files\\Notepad++\\notepad++.exe");
-            TryStart("C:\\Program Files\\Slack\\slack.exe");
+            TryStart(@"C:\Program Files\Notepad++\notepad++.exe");
+            TryStart(@"C:\Program Files\Slack\slack.exe");
 
             if (input.WaterfoxChkBox)
-                TryStart("C:\\Program Files\\Waterfox\\waterfox.exe");
+                TryStart(@"C:\Program Files\Waterfox\waterfox.exe");
 
-            TryStart("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
+            TryStart(@"C:\Program Files\Google\Chrome\Application\chrome.exe");
         }
 
         private static void TryStart(string path)
