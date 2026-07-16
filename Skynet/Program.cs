@@ -10,6 +10,7 @@ namespace Skynet
         {
             public bool VsCodeChkBox { get; set; }
             public bool WaterfoxChkBox { get; set; }
+            public bool ClaudeUsageChkBox { get; set; }
         }
 
         private static void Main()
@@ -23,15 +24,17 @@ namespace Skynet
                 var textLabel = new Label() { Left = 50, Width = 350, Top = 20, Text = "Start the world domination?" };
                 var vsCodeChkBox = new CheckBox() { Text = "run VS Code", Left = 50, Width = 350, Top = 40, };
                 var chkBox = new CheckBox() { Text = "run Waterfox", Left = 50, Width = 350, Top = 65, };
+                var claudeUsageChkBox = new CheckBox() { Text = "run Claude usage", Left = 50, Width = 350, Top = 90, };
 
                 var confirmProcess = new Button()
-                    { Text = "Yes", Left = 100, Width = 75, Top = 100, DialogResult = DialogResult.OK };
+                    { Text = "Yes", Left = 100, Width = 75, Top = 125, DialogResult = DialogResult.OK };
                 var cancelProcess = new Button()
-                    { Text = "No", Left = 200, Width = 100, Top = 100, DialogResult = DialogResult.Cancel };
+                    { Text = "No", Left = 200, Width = 100, Top = 125, DialogResult = DialogResult.Cancel };
 
                 myDialog.Controls.Add(textLabel);
                 myDialog.Controls.Add(vsCodeChkBox);
                 myDialog.Controls.Add(chkBox);
+                myDialog.Controls.Add(claudeUsageChkBox);
                 myDialog.Controls.Add(confirmProcess);
                 myDialog.Controls.Add(cancelProcess);
 
@@ -45,6 +48,7 @@ namespace Skynet
                 {
                     VsCodeChkBox = vsCodeChkBox.Checked,
                     WaterfoxChkBox = chkBox.Checked,
+                    ClaudeUsageChkBox = claudeUsageChkBox.Checked,
                 };
 
                 WorldDomination(request);
@@ -68,6 +72,9 @@ namespace Skynet
                 TryStart(@"C:\Program Files\Waterfox\waterfox.exe");
 
             TryStart(@"C:\Program Files\Google\Chrome\Application\chrome.exe");
+
+            if (input.ClaudeUsageChkBox)
+                TryStart(@"C:\Repository\clawdometer\target\release\clawdometer-app.exe");
         }
 
         private static void TryStart(string path)
